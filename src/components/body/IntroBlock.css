@@ -1,0 +1,58 @@
+.intro-container p,
+.intro-name,
+.intro-profession {
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.intro-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.intro-container P {
+    letter-spacing: 1px;
+    padding: 3em;
+    color: rgb(252, 252, 252);
+}
+
+.intro-container p:first-of-type {
+    padding: 3em;
+    color: rgb(252, 252, 252);
+
+}
+
+.intro-name {
+    font-size: 4em;
+    color: var(--article-colour-h1);
+}
+
+.intro-profession {
+    font-size: 2.5em;
+    color: var(--article-colour-lower-headings);
+}
+
+@media (max-width: 683px) {
+
+    .intro-container p,
+    .intro-name,
+    .intro-profession {
+        transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .intro-container p {
+        font-size: 14px;
+    }
+
+    .intro-name {
+        font-size: 45px;
+    }
+
+    .intro-profession {
+        font-size: 30px;
+    }
+}

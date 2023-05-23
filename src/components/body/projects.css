@@ -1,0 +1,148 @@
+.projects-section-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 100px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+a {
+    transition: var(--main-transition);
+}
+
+a:hover {
+    letter-spacing: 0.5px;
+}
+
+button {
+    transition: var(--main-transition);
+}
+
+.projects-section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+        "heading heading"
+        "article sidebar";
+}
+
+.projects-section>h1 {
+    grid-area: heading;
+    padding: 20px;
+    color: var(--article-colour-h1);
+}
+
+.projects-mini-article {
+    min-height: 32vh;
+    grid-area: article;
+
+}
+
+.project-sidebar>ul {
+    padding-top: 1em;
+}
+
+.projects-mini-article,
+.project-sidebar {
+    padding: 20px;
+}
+
+
+
+.projects-mini-article>p {
+    padding-bottom: 1em;
+}
+
+.projects-mini-article>div {
+    display: flex;
+}
+
+.projects-mini-article>div>a {
+    display: block;
+    padding-right: 12px;
+}
+
+.projects-mini-article>h1 {
+    color: var(--article-colour-h1);
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.projects-mini-article>ul {
+    padding: 30px 20px 30px 30px;
+}
+
+.project-sidebar {
+    padding: 20px;
+    grid-area: sidebar;
+}
+
+.project-sidebar>ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+}
+
+.project-sidebar>ul>li {
+    padding-right: 0;
+}
+
+.project-sidebar>h3 {
+    color: var(--article-colour-h1);
+    font-size: 29px;
+    text-align: center;
+}
+
+li>button {
+    margin: 5px;
+    border-color: rgb(36, 27, 43);
+    background-color: rgb(36, 27, 43);
+    border-left: 2px solid;
+    width: 12em;
+    height: 3em;
+    color: var(--article-colour-a);
+}
+
+li>button:hover {
+    cursor: pointer;
+    color: var(--article-colour-a-hovor);
+    transition: var(--main-transition);
+}
+
+@media(max-width: 875px) {
+    .projects-section {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "heading"
+            "sidebar"
+            "article";
+    }
+
+
+    .projects-mini-article>h1 {
+        text-align: center;
+        padding: 0px;
+        padding-bottom: 30px;
+    }
+
+    .projects-mini-article>p,
+    .projects-section>h1 {
+        text-align: center;
+    }
+
+    ul>li {
+        padding-right: 0px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .projects-mini-article>div {
+        justify-content: center;
+    }
+}
