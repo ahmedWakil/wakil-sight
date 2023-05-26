@@ -26,11 +26,11 @@ function IntroBlock() {
 
         <p>Hi, my name is</p>
         <h1 className="intro-name">Wakil Ahmed</h1>
-        <h2 className="intro-profession">I build software to solve problems</h2>
-        <p> I have a wide veriety of interests and experience in Data science,
-          Machine learning and software engineering.
+        <h2 className="intro-profession">Building moving web applications</h2>
+        <p> I have a wide veriety of interests and experience in Data Science,
+          Machine Learning and Software Engineering.
 
-          I am passionate about taking my interdiciplinary expertise and
+          I am passionate about taking my interdisciplinary expertise and
           applying them in new ways to help build something useful.
         </p>
       </Fade>

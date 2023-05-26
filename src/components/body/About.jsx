@@ -29,12 +29,12 @@ function About() {
                     <h2 className='about-subheading'>Wakil Ahmed</h2>
                     <p>
                         I like to research and develope things on the internet.
-                        This is anything from Data science, and Machine learning to Software developement.
-                        My interest started with mathematics when I went on to study at the <a href="https://www.utsc.utoronto.ca/home/">University of Toronto
-                            Scarborough</a>, studying computer science. I mainly focused on the mathamatical side of computer
-                        science such and data structures and numerical analysis. During my final years at UTSC I have grown a strong interest in Data science and Machine learning
+                        This is anything from Data Science, and Machine Learning to Software Developement.
+                        My interest started with Mathematics when I went on to study at the <a href="https://www.utsc.utoronto.ca/home/">University of Toronto
+                            Scarborough</a>, studying Computer Science. I mainly focused on the mathamatical side of Computer
+                        Science such and Data Structures and Numerical Analysis. During my final years at UTSC I have grown a strong interest in Data science and Machine learning
                         and that is where I am today. I graduated with a Degree in Statistics with a specialization on
-                        Data science and Machine learning at UTSC.
+                        Data Science and Machine Learning at UTSC.
                     </p>
                 </Fade>
             </article>

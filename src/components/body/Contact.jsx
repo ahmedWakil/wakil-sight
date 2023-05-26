@@ -42,7 +42,9 @@ function Contact() {
                     <h1 className='contact-heading'>Contact me</h1>
                     <section className="contact-message">
                         <h2>Send a message</h2>
-                        <p>If you want to speak to me, I will be happy to answer emails as soon as possible</p>
+                        <p>I am always open for emails. If you would like to discuss the design of this website,
+                            talk about tech or even RPGs and music send an email.
+                        </p>
                     </section>
                     <Reveal keyframes={customReveal} >
                         <section className="contact-information">

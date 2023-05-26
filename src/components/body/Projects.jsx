@@ -75,13 +75,13 @@ function Projects() {
             information: `This is a command line text based adventure game.
                           The goal is to traverse a series of auto generated 
                           levels in order to find the exit to the next level.
-                          This was implemented using a pretty novel algorithm 
-                          that borrows the idea of a wave function from quantum 
-                          physics (it's not actually quantum physics, just the idea).
-                          The big advantage of this algorithm is that it can 
-                          generate large structures by using a small set of 
-                          reoccurring smaller pieces. It makes no use of neural 
-                          networks or other machine learning models. \n`,
+                          The map generation was implemented using the Wave Function Collapse
+                          algorithm. The algorithm takes in an archetypical input, 
+                          and produces procedurally-generated outputs that look like it.
+                          I modified this algoithm to work with the map templates which are
+                          premade and kept inside json files. The program uses the Jackson library
+                          to build a robust api that is able to interpret the jason files for
+                          map generation`,
             links: [
                 {
                     id: 'a',
@@ -98,14 +98,13 @@ function Projects() {
         {
             name: "This website",
             information: `I wanted to build a modern looking website with industry standard 
-                          tools from the ground up. I opted to use the react framework. This is mainly
-                          because it is easy to use if you already know javascript, and it is 
-                          also open source. This allows you to have access to a whole network
+                          tools from the ground up. I opted to use the react framework. This is
+                          a modern framework that is open source. This allows you to have access to a whole network
                           of libraries built to work with react. One of them is react-spring
                           which animates react components using react hooks. This is the tool 
                           I used for all of the animations. I want this website to be an extension
                           of my personality so it will always be a work in progress, and will see
-                          many changes.
+                          many changes. In future updates this website will be a full on Dnd fantasy adventure!
                           `,
             links: [
                 {
