@@ -21,6 +21,9 @@ button {
 }
 
 .projects-section {
+    background-color: var(--text-container-background-colour);
+    border-radius: 20px;
+    box-shadow: var(--drop-shadow-1);
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-areas:
