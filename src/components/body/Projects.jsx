@@ -71,6 +71,36 @@ function Projects() {
 
     const projectData = [
         {
+            name: "Songell",
+            information: `This is a Fantasy name generator powered by a character level LSTM language model. It has been trained
+                          to generate names from a veriety of playable races in the DnD universe, available as a web application. 
+                          The model was pretrained using Pytorch on a dataset of Fantasy names from all over the internet combined with 
+                          names from different languages and cultures. This is then converted to an ONNX model with the trained wieghts.
+                          The web application uses ONNX runtime to sample names from the model.
+                          `,
+            links: [
+                {
+                    id: "a",
+                    name: "Live App",
+                    urlref: "https://ahmedwakil.github.io/Songell/"
+                },
+                {
+                    id: "b",
+                    name: "GitHub",
+                    urlref: "https://github.com/ahmedWakil/Songell"
+                },
+                {
+                    id: "c",
+                    name: "Pytorch",
+                    urlref: "https://pytorch.org/get-started/locally/"
+                },
+                {
+                    id: "d",
+                    name: "ONNX",
+                    urlref: "https://onnxruntime.ai/"
+                }]
+        },
+        {
             name: "Adventure-txt",
             information: `This is a command line text based adventure game.
                           The goal is to traverse a series of auto generated 
