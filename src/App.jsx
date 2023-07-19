@@ -15,7 +15,7 @@ function App() {
   const urlS = (number, index) => `./page-backgrounds/page-${number}/${number}-${index}.png`
 
   return (
-    <main className='App' style={{ width: '100%', height: '100%' }}>
+    <main className='App' style={{ width: '100%', height: '100vh' }}>
       <Parallax pages={PAGES} ref={ref}>
 
 
@@ -74,9 +74,9 @@ function App() {
           <About />
         </ParallaxLayer>
         <ParallaxLayer className="page-change-button" offset={PAGES - 2.1} speed={0.1}>
-          <button onClick={() => ref.current.scrollTo(PAGES - 2)}>
+          {window.screen.height > 924 && <button onClick={() => ref.current.scrollTo(PAGES - 2)}>
             <img src='./button-arrows/arrow-down.png'></img>
-          </button>
+          </button>}
         </ParallaxLayer>
 
         {/* The third page background images*/}
@@ -127,9 +127,9 @@ function App() {
           <Projects />
         </ParallaxLayer>
         <ParallaxLayer className="page-change-button" offset={PAGES - 1.1} speed={0.1}>
-          <button onClick={() => ref.current.scrollTo(PAGES - 1)}>
+          {window.screen.height > 924 && <button onClick={() => ref.current.scrollTo(PAGES - 1)}>
             <img src='./button-arrows/arrow-down.png'></img>
-          </button>
+          </button>}
         </ParallaxLayer>
 
         {/* The forth page background images*/}
@@ -179,9 +179,9 @@ function App() {
           <Contact />
         </ParallaxLayer>
         <ParallaxLayer className="page-change-button" offset={PAGES - 0.1}>
-          <button onClick={() => ref.current.scrollTo(0)}>
+          {window.screen.height > 924 && <button onClick={() => ref.current.scrollTo(0)}>
             <img src='./button-arrows/arrow-up.png'></img>
-          </button>
+          </button>}
         </ParallaxLayer>
       </Parallax>
     </main>
