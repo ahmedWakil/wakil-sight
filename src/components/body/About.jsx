@@ -33,13 +33,13 @@ function About() {
                         defining impacts on people's lives. I do consider myself a lifelong learner, since that is something that comes naturally through 
                         tinkering, and I like to research and explore creative uses of technology to make something incredibly useful or simply entertaining. 
                         I have a keen interest in all areas of computer science, and Machine Learning in particular as it was my area of study during my 
-                        undergrad at the University of Toronto.<br/>
+                        undergrad at the University of Toronto.<br/><br/>
                         Outside of work I enjoy creating art, music, and quality tea, and I do have a natural creative side that I think bleeds well into 
                         my work in technology. I took an interest in playing the piano during my grade school years - my favorite genre to play is jazz, and my long 
-                        term goal is to be able to play with other jazz musicians.<br/>
+                        term goal is to be able to play with other jazz musicians.<br/><br/>
                         I'm also an avid fan of RPGs (role-playing games) of any form. I love the inherent adventure 
                         and fantasy of exploring an unknown magical realm. I built the theme of this website around this aspect of myself, and as I tinker 
-                        with the design, the final goal is to create a unique space that speaks to my personality.<br/>
+                        with the design, the final goal is to create a unique space that speaks to my personality.<br/><br/>
                         If you'd like to chat about the latest and greatest news in NLP or discuss obscure bits of DnD lore, my contacts are always open! 
                         I'll always welcome the chance to talk about something new to tinker with, and if not, a chat is still a great excuse to make myself tea. 
                     </p>
