@@ -28,13 +28,23 @@ function About() {
                     <h1 className="about-heading">About me</h1>
                     <h2 className='about-subheading'>Wakil Ahmed</h2>
                     <p>
-                        I like to research and develope things on the internet.
-                        This is anything from Data Science, and Machine Learning to Software Developement.
-                        My interest started with Mathematics when I went on to study at the <a href="https://www.utsc.utoronto.ca/home/">University of Toronto
-                            Scarborough</a>, studying Computer Science. I mainly focused on the mathamatical side of Computer
-                        Science such and Data Structures and Numerical Analysis. During my final years at UTSC I have grown a strong interest in Data science and Machine learning
-                        and that is where I am today. I graduated with a Degree in Statistics with a specialization on
-                        Data Science and Machine Learning at UTSC.
+                        Tinkering. If I had to craft a one-word description of myself it'd be that word. 
+                        I've always been interested in tinkering with technology, and I'm fascinated by how even the smallest technologies, new or old, have 
+                        defining impacts on people's lives. I do consider myself a lifelong learner, since that is something that comes naturally through 
+                        tinkering, and I like to research and explore creative uses of technology to make something incredibly useful or simply entertaining. 
+                        I have a keen interest in all areas of computer science, and Machine Learning in particular as it was my area of study during my 
+                        undergrad at the University of Toronto.<br>
+                        
+                        Outside of work I enjoy creating art, music, and quality tea, and I do have a natural creative side that I think bleeds well into 
+                        my work in technology. I took an interest in playing the piano during my grade school years - my favorite genre to play is jazz, and my long 
+                        term goal is to be able to play with other jazz musicians.<br>
+                        
+                        I'm also an avid fan of RPGs (role-playing games) of any form. I love the inherent adventure 
+                        and fantasy of exploring an unknown magical realm. I built the theme of this website around this aspect of myself, and as I tinker 
+                        with the design, the final goal is to create a unique space that speaks to my personality.<br>
+                        
+                        If you'd like to chat about the latest and greatest news in NLP or discuss obscure bits of DnD lore, my contacts are always open! 
+                        I'll always welcome the chance to talk about something new to tinker with, and if not, a chat is still a great excuse to make myself tea. 
                     </p>
                 </Fade>
             </article>
