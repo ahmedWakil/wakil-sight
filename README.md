@@ -4,5 +4,5 @@ just be interesting and unique. It will get a lot of updates and change with me 
 
 ## Libraries used
 1. react-spring/web: v9.7.2
-2. react": v18.2.0
+2. react: v18.2.0
 3. react-awesome-reveal: v4.2.3
